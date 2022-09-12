@@ -27,3 +27,7 @@ Things you may want to cover:
 run rails server to start
 
 rails generate model Model name:type
+
+rake db:migrate
+
+rails routes
