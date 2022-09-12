@@ -1,2 +1,8 @@
 <h1><%= @post.title %></h1>
 <div><%= @post.body %> </div>
+<br>
+<%= link_to "edit_post", edit_post_path(@post) %> 
+<br>
+<%= link_to "Delete", post_path(@post), data: { "turbo-method": :delete,
+turbo_confirm: "Are you sure?"
+ } %> 
